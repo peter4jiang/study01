@@ -1,5 +1,5 @@
 <script>
 	window.onload = function() {
-		alert()
+		alert('test2')
 	}
 </script>
