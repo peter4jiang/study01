@@ -1,17 +1,18 @@
 git学习笔记
-git init
-git init newrepo
-git add filename
-git commit -m "Adding files"
-git commit -a -m "Changed some files"
-git clone ssh://example.com/~/www/project.git
+git init 使用您当前目录作为Git仓库，我们只需使它初始化。
+git init newrepo 使用我们指定目录作为Git仓库。
+git add filename 添加新文件
+git commit -m "Adding files" 提交版本
+git commit -a -m "Changed some files" 当我们修改了很多文件，而不想每一个都add，想commit自动来提交本地修改，我们可以使用-a标识。
+git clone ssh://example.com/~/www/project.git 发布版本
 git push ssh://example.com/~/www/project.git
 
-git pull
-git rm file
-git branch test
-git checkout test
-git checkout master
-git checkout master
+git pull 取回更新
+git rm file 删除
+分支与合并
+git branch test  要创建一个新的分支，我们使用branch命令。
+git checkout test 所以我们使用checkout命令来更改分支。
+git checkout master 第一个分支，或主分支，被称为"master"。
+git checkout master 如果想将更改提交到主分支，则需切换回master分支，然后使用合并。
 git merge test
 git branch -d test 如果您想删除分支，我们使用-d标识。
