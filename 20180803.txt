@@ -1,0 +1,17 @@
+git学习笔记
+git init
+git init newrepo
+git add filename
+git commit -m "Adding files"
+git commit -a -m "Changed some files"
+git clone ssh://example.com/~/www/project.git
+git push ssh://example.com/~/www/project.git
+
+git pull
+git rm file
+git branch test
+git checkout test
+git checkout master
+git checkout master
+git merge test
+git branch -d test 如果您想删除分支，我们使用-d标识。
