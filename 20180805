@@ -1,0 +1,12 @@
+集中式版本控制
+分布式版本控制
+
+git clone xxxx
+git config 
+git config list
+
+在某个目录中使用git init，就可以使用git仓库了
+git status 查看文件的状态
+git add file 将文件加入跟踪中 把文件放在暂存区
+git commit 提交更新
+git commit --amend 有时候我们提交完了才发现漏掉了几个文件没有加
