@@ -6,19 +6,26 @@ $(function() {
 		
 	// });
 
-	var bPress = false
-	$('#btn').click(function() {
-		if (!bPress) {
-			bPress = true
-			$(this).text('stop')
-			$('#mypanel').animate({
-				height: '+=100'
-			}, 5000)
-		} else {
-			bPress = false
-			$(this).text('start')
-			$('#mypanel').stop(true, false)
-		}
+	// var bPress = false
+	// $('#btn').click(function() {
+	// 	if (!bPress) {
+	// 		bPress = true
+	// 		$(this).text('stop')
+	// 		$('#mypanel').animate({
+	// 			height: '+=100'
+	// 		}, 5000)
+	// 	} else {
+	// 		bPress = false
+	// 		$(this).text('start')
+	// 		$('#mypanel').stop(true, false)
+	// 	}
+	// })
+
+	
+	setInterval(function() {
+		$('p').slideUp(1000).slideDown(1000)
+	}, 1000)
 		
-	})
-});
+	
+	
+})
